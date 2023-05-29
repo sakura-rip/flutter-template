@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:example_app/constants/exceptions.dart';
-import 'package:example_app/model/user/user.dart';
+import 'package:example_app/freezed/user/user.dart';
 import 'package:example_app/repository/api_repository.dart';
 
 class ApiRepositoryImpl implements ApiRepository {
